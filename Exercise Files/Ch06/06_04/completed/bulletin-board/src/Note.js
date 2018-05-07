@@ -36,7 +36,6 @@ class Note extends Component {
 			textArea.focus()
 			textArea.select()
 		}
-
 	}
 
 	shouldComponentUpdate(nextProps, nextState) {
@@ -93,8 +92,3 @@ class Note extends Component {
 }
 
 export default Note
-
-
-
-
-
